@@ -20,7 +20,9 @@ header {
 	height: 80px;
 	background-color: pink;
 }
-
+.container {
+	height: 100%;
+}
 nav {
 	height: 100%;
 	display: flex;
