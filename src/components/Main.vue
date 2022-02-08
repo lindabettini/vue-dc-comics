@@ -1,19 +1,19 @@
 <template>
-	<section id="content">
+	<main>
 		<div class="container">
 			<h3>Content goes here</h3>
 		</div>
-	</section>
+	</main>
 </template>
 
 <script>
 export default {
-	name: "Content",
+	name: "Main",
 };
 </script>
 
 <style scoped lang="scss">
-#content {
+main {
 	height: 80px;
 	background-color: black;
 	.container {
