@@ -4,7 +4,7 @@
 			<ul>
 				<li class="card" v-for="(product, index) in products" :key="index">
 					<img :src="require('../assets/img/' + product.img)" />
-					<p>{{ product.text }}</p>
+					<a :href="product.link">{{ product.text }}</a>
 				</li>
 			</ul>
 		</div>
@@ -17,11 +17,11 @@ export default {
 	data() {
 		return {
 			products: [
-				{ img: "buy-comics-digital-comics.png", text: "DIGITAL COMICS" },
-				{ img: "buy-comics-merchandise.png", text: "DC MERCHANDISE" },
-				{ img: "buy-comics-shop-locator.png", text: "SUBSCRIPTION" },
-				{ img: "buy-comics-digital-comics.png", text: "COMIC SHOP LOCATOR" },
-				{ img: "buy-comics-subscriptions.png", text: "DC POWER VISA" },
+				{ img: "buy-comics-digital-comics.png", text: "DIGITAL COMICS", link: "#" },
+				{ img: "buy-comics-merchandise.png", text: "DC MERCHANDISE", link: "#" },
+				{ img: "buy-comics-shop-locator.png", text: "SUBSCRIPTION", link: "#" },
+				{ img: "buy-comics-digital-comics.png", text: "COMIC SHOP LOCATOR", link: "#" },
+				{ img: "buy-comics-subscriptions.png", text: "DC POWER VISA", link: "#" },
 			],
 		};
 	},
@@ -32,13 +32,31 @@ export default {
 #top-footer {
 	height: 100px;
 	background-color: var(--primary-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 ul {
+	height: 100%;
 	list-style-type: none;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	li {
 		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		img {
+			width: auto;
+			height: 40px;
+			margin: 5px;
+		}
+		a {
+			color: white;
+			font-size: 10px;
+		}
 	}
 }
 </style>
