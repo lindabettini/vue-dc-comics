@@ -11,6 +11,6 @@ export default {
 <style scoped lang="scss">
 div {
 	height: 100px;
-	border: 2px solid black;
+	background-color: var(--primary-color);
 }
 </style>

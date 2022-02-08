@@ -10,7 +10,7 @@ export default {
 
 <style scoped lang="scss">
 div {
-	height: 100px;
-	border: 2px solid black;
+	height: 80px;
+	background-color: rgb(34, 34, 34);
 }
 </style>

@@ -10,7 +10,7 @@ export default {
 
 <style scoped lang="scss">
 div {
-	height: 100px;
-	border: 2px solid black;
+	height: 400px;
+	background-image: url(../assets/img/footer-bg.jpg);
 }
 </style>
