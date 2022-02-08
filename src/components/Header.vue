@@ -63,6 +63,9 @@ ul {
 	}
 	li a {
 		padding: 10px;
+		&:hover {
+			border-bottom: 3px solid var(--primary-color);
+		}
 	}
 }
 </style>

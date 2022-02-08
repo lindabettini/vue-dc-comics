@@ -49,4 +49,8 @@ a {
 .h-100 {
 	height: 100%;
 }
+
+:root {
+	--primary-color: rgb(12, 124, 236);
+}
 </style>
