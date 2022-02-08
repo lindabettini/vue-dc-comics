@@ -3,7 +3,7 @@
 		<div class="container">
 			<nav>
 				<figure>
-					<img src="../img/dc-logo.png" alt="DC logo" />
+					<img src="../assets/img/dc-logo.png" alt="DC logo" />
 				</figure>
 				<ul>
 					<li v-for="(link, index) in links" :key="index">
