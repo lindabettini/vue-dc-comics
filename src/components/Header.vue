@@ -19,10 +19,12 @@ export default {
 header {
 	height: 80px;
 	background-color: pink;
-	nav {
-		display: flex;
-		justify-content: space-between;
-		align-content: center;
-	}
+}
+
+nav {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 </style>
