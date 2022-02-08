@@ -1,5 +1,12 @@
 <template>
-	<header>ciao</header>
+	<header>
+		<div class="container">
+			<nav>
+				<div>ciao</div>
+				<div>ciao</div>
+			</nav>
+		</div>
+	</header>
 </template>
 
 <script>
@@ -8,5 +15,14 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+header {
+	height: 80px;
+	background-color: pink;
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+	}
+}
+</style>
