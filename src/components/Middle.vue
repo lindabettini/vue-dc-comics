@@ -70,9 +70,8 @@ export default {
 
 .nav-list {
 	width: calc(80% / 3);
-	border: 2px solid white;
 	height: 100%;
-	padding: 10px;
+	padding: 30px 10px;
 	h5 {
 		color: white;
 	}
