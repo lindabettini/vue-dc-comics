@@ -157,6 +157,7 @@ ul {
 	button {
 		padding: 7px 40px;
 		margin: 30px 0;
+		cursor: pointer;
 	}
 }
 </style>
