@@ -116,6 +116,8 @@ main {
 
 .section-title {
 	color: white;
+	width: 200px;
+	text-align: center;
 	h3 {
 		background-color: var(--primary-color);
 		padding: 10px;
