@@ -1,8 +1,9 @@
 <template>
 	<main>
 		<div class="container">
-			<section id="current-series"></section>
-			<h3>Content goes here</h3>
+			<section id="current-series">
+				<div class="jumbotron-title"><h3>CURRENT SERIES</h3></div>
+			</section>
 		</div>
 	</main>
 </template>
@@ -93,8 +94,7 @@ export default {
 
 <style scoped lang="scss">
 main {
-	height: 80px;
-	background-color: black;
+	background-color: rgb(12, 12, 12);
 	.container {
 		display: flex;
 		height: 100%;
@@ -102,7 +102,13 @@ main {
 	}
 }
 
-h3 {
+.jumbotron-title {
 	color: white;
+	h3 {
+		background-color: var(--primary-color);
+		padding: 10px;
+		position: relative;
+		bottom: 20px;
+	}
 }
 </style>
