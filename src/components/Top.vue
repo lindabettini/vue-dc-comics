@@ -19,8 +19,8 @@ export default {
 			products: [
 				{ img: "buy-comics-digital-comics.png", text: "DIGITAL COMICS", link: "#" },
 				{ img: "buy-comics-merchandise.png", text: "DC MERCHANDISE", link: "#" },
-				{ img: "buy-comics-shop-locator.png", text: "SUBSCRIPTION", link: "#" },
-				{ img: "buy-comics-digital-comics.png", text: "COMIC SHOP LOCATOR", link: "#" },
+				{ img: "buy-comics-subscriptions.png", text: "SUBSCRIPTION", link: "#" },
+				{ img: "buy-comics-shop-locator.png", text: "COMIC SHOP LOCATOR", link: "#" },
 				{ img: "buy-dc-power-visa.svg", text: "DC POWER VISA", link: "#" },
 			],
 		};
