@@ -13,7 +13,7 @@
 
 <script>
 export default {
-	name: "Top",
+	name: "FooterTop",
 	data() {
 		return {
 			products: [
