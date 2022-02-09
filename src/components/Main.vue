@@ -25,6 +25,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/sass/_vars.scss";
 main {
 	background-color: rgb(12, 12, 12);
 	.container {
@@ -47,7 +48,7 @@ main {
 	width: 200px;
 	text-align: center;
 	h3 {
-		background-color: var(--primary-color);
+		background-color: $main-color;
 		padding: 10px;
 		position: relative;
 		bottom: 20px;

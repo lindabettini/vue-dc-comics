@@ -103,6 +103,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@/sass/_vars.scss";
 * {
 	padding: 0;
 	margin: 0;
@@ -110,7 +111,7 @@ export default {
 }
 
 body {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
+	font-family: $main-font;
 }
 
 img {
@@ -137,19 +138,15 @@ a {
 	height: 100%;
 }
 
-:root {
-	--primary-color: rgb(12, 124, 236);
-}
-
 button {
 	background-color: transparent;
 	padding: 7px;
 	color: white;
-	border: 2px solid var(--primary-color);
+	border: 2px solid $main-color;
 }
 
 button.primary-btn {
-	background-color: var(--primary-color);
-	border: 2px solid var(--primary-color);
+	background-color: $main-color;
+	border: 2px solid $main-color;
 }
 </style>

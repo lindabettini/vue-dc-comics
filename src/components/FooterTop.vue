@@ -29,9 +29,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/sass/_vars.scss";
 #top-footer {
 	height: 100px;
-	background-color: var(--primary-color);
+	background-color: $main-color;
 	display: flex;
 	justify-content: center;
 	align-items: center;
