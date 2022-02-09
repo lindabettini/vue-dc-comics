@@ -156,7 +156,7 @@ ul {
 	justify-content: center;
 	button {
 		padding: 7px 40px;
-		margin: 30px 0;
+		margin-top: 30px;
 		cursor: pointer;
 	}
 }
