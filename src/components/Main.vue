@@ -2,7 +2,10 @@
 	<main>
 		<div class="container">
 			<section id="current-series">
-				<div class="jumbotron-title"><h3>CURRENT SERIES</h3></div>
+				<div class="section-title"><h3>CURRENT SERIES</h3></div>
+				<ul id="serie-cards">
+					<li class="serie-card"></li>
+				</ul>
 			</section>
 		</div>
 	</main>
@@ -102,7 +105,7 @@ main {
 	}
 }
 
-.jumbotron-title {
+.section-title {
 	color: white;
 	h3 {
 		background-color: var(--primary-color);
