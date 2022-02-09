@@ -1,5 +1,5 @@
 <template>
-	<div class="jumbotron">gggg</div>
+	<div class="jumbotron"></div>
 </template>
 
 <script>
@@ -8,4 +8,9 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.jumbotron {
+	height: 400px;
+	background-image: url(../assets/img/jumbotron.jpg);
+}
+</style>

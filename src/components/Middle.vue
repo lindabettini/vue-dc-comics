@@ -1,5 +1,5 @@
 <template>
-	<div id="middle-header">
+	<div id="middle-footer">
 		<div class="container">
 			<nav id="footer-nav" class="col-6">
 				<div class="nav-list">
@@ -53,7 +53,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-#middle-header {
+#middle-footer {
 	height: 100%;
 	background-image: url(../assets/img/footer-bg.jpg);
 	background-repeat: no-repeat;
