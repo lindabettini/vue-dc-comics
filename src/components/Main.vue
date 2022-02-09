@@ -4,7 +4,12 @@
 			<section id="current-series">
 				<div class="section-title"><h3>CURRENT SERIES</h3></div>
 				<ul id="serie-cards">
-					<li class="serie-card"></li>
+					<li class="serie-card" v-for="(serie, index) in currentSeries" :key="index">
+						<figure>
+							<img :src="serie.thumb" alt="serie.series" />
+						</figure>
+						<a href="#">{{ serie.series }}</a>
+					</li>
 				</ul>
 			</section>
 		</div>
@@ -100,9 +105,13 @@ main {
 	background-color: rgb(12, 12, 12);
 	.container {
 		display: flex;
-		height: 100%;
 		align-items: center;
 	}
+}
+
+#serie-cards {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .section-title {
@@ -112,6 +121,26 @@ main {
 		padding: 10px;
 		position: relative;
 		bottom: 20px;
+	}
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	li {
+		color: white;
+		padding: 10px;
+		width: calc(100% / 6);
+		figure {
+			height: 150px;
+			width: 150px;
+			overflow: hidden;
+			margin-bottom: 15px;
+		}
+		a {
+			color: white;
+			text-decoration: none;
+		}
 	}
 }
 </style>
