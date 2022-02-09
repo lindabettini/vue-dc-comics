@@ -11,6 +11,7 @@
 						<a href="#">{{ serie.series }}</a>
 					</li>
 				</ul>
+				<div class="btn-container"><button class="primary-btn">LOAD MORE</button></div>
 			</section>
 		</div>
 	</main>
@@ -109,6 +110,10 @@ main {
 	}
 }
 
+#current-series {
+	padding-bottom: 20px;
+}
+
 #serie-cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -143,6 +148,15 @@ ul {
 			color: white;
 			text-decoration: none;
 		}
+	}
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+	button {
+		padding: 7px 40px;
+		margin: 30px 0;
 	}
 }
 </style>

@@ -62,4 +62,16 @@ a {
 :root {
 	--primary-color: rgb(12, 124, 236);
 }
+
+button {
+	background-color: transparent;
+	padding: 7px;
+	color: white;
+	border: 2px solid var(--primary-color);
+}
+
+button.primary-btn {
+	background-color: var(--primary-color);
+	border: 2px solid var(--primary-color);
+}
 </style>

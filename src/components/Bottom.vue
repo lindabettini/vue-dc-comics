@@ -49,13 +49,6 @@ a {
 	padding: 5px;
 }
 
-button {
-	background-color: transparent;
-	padding: 7px;
-	border: 2px solid var(--primary-color);
-	color: white;
-}
-
 h4 {
 	color: var(--primary-color);
 }
