@@ -2,7 +2,7 @@
 	<div id="app">
 		<Header />
 		<Jumbotron />
-		<Main :series="currentSeries.series" :thumb="currentSeries.thumb" />
+		<Main :series="currentSeries" />
 		<Footer />
 	</div>
 </template>

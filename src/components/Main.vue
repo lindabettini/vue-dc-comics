@@ -4,7 +4,7 @@
 			<section id="current-series">
 				<div class="section-title"><h3>CURRENT SERIES</h3></div>
 				<ul id="serie-cards">
-					<li class="serie-card" v-for="(serie, index) in currentSeries" :key="index">
+					<li class="serie-card" v-for="(serie, index) in series" :key="index">
 						<figure>
 							<img :src="serie.thumb" alt="serie.series" />
 						</figure>
@@ -20,7 +20,7 @@
 <script>
 export default {
 	name: "Main",
-	props: ["thumb", "serie"],
+	props: ["series"],
 };
 </script>
 
