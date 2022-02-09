@@ -10,7 +10,7 @@ export default {
 
 <style scoped lang="scss">
 .jumbotron {
-	height: 400px;
+	height: 500px;
 	background-image: url(../assets/img/jumbotron.jpg);
 }
 </style>
